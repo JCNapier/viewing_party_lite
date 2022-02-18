@@ -17,8 +17,8 @@ RSpec.describe 'viewing party homepage' do
     visit '/'
 
     click_link "#{user_1.email}'s Dashboard"
-
-    expect(current_path).to eq(user_path(user_1))
+    
+    expect(current_path).to eq("/user/#{user_1.id}")
   end
 
   it 'can click a button to create a new user', :vcr do

@@ -9,17 +9,17 @@ RSpec.describe 'viewing party new form' do
   it 'has a button that takes the user back to the discover page', :vcr do
     movie = TmdbFacade.details(278)
 
-    visit new_user_movie_viewing_party_path(user_1, movie.id)
+    visit "/user/#{user_1.id}/movie/#{movie.id}/viewing_party/new"
 
     click_button 'Discover Movies'
 
-    expect(current_path).to eq(user_discover_index_path(user_1))
+    expect(current_path).to eq("/user/#{user_1.id}/discover")
   end
 
   it 'has a prepopulated form that can be edited to create a new viewing party', :vcr do
     movie = TmdbFacade.details(278)
 
-    visit new_user_movie_viewing_party_path(user_1, movie.id)
+    visit "/user/#{user_1.id}/movie/#{movie.id}/viewing_party/new"
 
     expect(page).to have_content("Create a Movie Party for #{movie.title}")
     expect(page).to have_content(movie.title)
@@ -40,6 +40,6 @@ RSpec.describe 'viewing party new form' do
     check "#{user_4.name} (#{user_4.email})"
     click_button 'Create Party'
 
-    expect(current_path).to eq(user_path(user_1.id))
+    expect(current_path).to eq("/user/#{user_1.id}")
   end
 end

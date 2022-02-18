@@ -6,7 +6,7 @@ RSpec.describe 'viewing party homepage' do
   let!(:user_3) { User.create!(name: 'Oswald', email: 'oswald@cobblepot.gotham', status: 0, password: 'penguin123', password_confirmation: 'penguin123') }
 
   before :each do
-    visit user_discover_index_path(user_1)
+    visit "/user/#{user_1.id}/discover"
   end
 
   it 'has a discover movies header', :vcr do
@@ -18,7 +18,7 @@ RSpec.describe 'viewing party homepage' do
 
     click_button 'Find Top Rated Movies'
 
-    expect(current_path).to eq(user_movie_index_path(user_1))
+    expect(current_path).to eq("/user/#{user_1.id}/movie")
   end
 
   describe 'form to find movies' do
@@ -28,7 +28,7 @@ RSpec.describe 'viewing party homepage' do
       fill_in :keyword, with: 'Godfather'
       click_button 'Find Movies'
 
-      expect(current_path).to eq(user_movie_index_path(user_1))
+      expect(current_path).to eq("/user/#{user_1.id}/movie")
     end
   end
 end

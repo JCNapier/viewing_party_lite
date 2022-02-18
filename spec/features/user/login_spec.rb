@@ -14,7 +14,7 @@ RSpec.describe 'user login page' do
 
       click_button "Login"
 
-      expect(current_path).to eq(user_path(user_3))
+      expect(current_path).to eq("/user/#{user_3.id}")
     end
   end
 
