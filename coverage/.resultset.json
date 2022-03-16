@@ -1,6 +1,286 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/environment.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/application.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/boot.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/environments/test.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/application_controller_renderer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/assets.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/backtrace_silencers.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/content_security_policy.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/cookies_serializer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/mime_types.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/initializers/wrap_parameters.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/config/routes.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/helpers/application_helper.rb": {
         "lines": [
           null,
@@ -9,371 +289,49 @@
           null
         ]
       },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/facade/tmdb_facade.rb": {
-        "lines": [
-          1,
-          1,
-          8,
-          8,
-          null,
-          8,
-          null,
-          8,
-          320,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          2,
-          null,
-          2,
-          80,
-          null,
-          null,
-          null,
-          1,
-          8,
-          8,
-          52,
-          null,
-          null,
-          null,
-          1,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/models/user.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/poros/movie.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          417,
-          417,
-          417,
-          417,
-          417,
-          417,
-          417,
-          417,
-          417,
-          417,
-          null,
-          null,
-          1,
-          51,
-          null,
-          null,
-          1,
-          17,
-          null,
-          null,
-          1,
-          17,
-          null,
-          null,
-          1,
-          17,
-          17,
-          170,
-          null,
-          17,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/poros/review.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          52,
-          52,
-          null,
-          null
-        ]
-      },
       "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/services/tmdb_service.rb": {
         "lines": [
           1,
           1,
-          67,
-          67,
+          1,
+          1,
+          0,
           null,
           null,
           null,
           1,
-          17,
+          1,
           null,
-          17,
+          0,
           null,
           null,
           1,
-          5,
+          0,
           null,
-          5,
-          null,
-          null,
-          1,
-          9,
-          null,
-          9,
+          0,
           null,
           null,
           1,
-          18,
+          0,
           null,
-          18,
+          0,
           null,
           null,
           1,
-          18,
+          0,
           null,
-          18,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
           null,
           null
         ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/discover_controller.rb": {
-        "lines": [
-          1,
-          1,
-          7,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/movie_controller.rb": {
-        "lines": [
-          1,
-          1,
-          6,
-          6,
-          1,
-          null,
-          5,
-          null,
-          null,
-          null,
-          1,
-          5,
-          5,
-          5,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/homepage_controller.rb": {
-        "lines": [
-          1,
-          1,
-          8,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/user_controller.rb": {
-        "lines": [
-          1,
-          1,
-          7,
-          7,
-          null,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          2,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          3,
-          null,
-          3,
-          1,
-          1,
-          null,
-          null,
-          2,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/models/viewing_party.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/controllers/viewing_party_controller.rb": {
-        "lines": [
-          1,
-          1,
-          3,
-          3,
-          3,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/models/user_party.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/mailers/application_mailer.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/jobs/application_job.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/channels/application_cable/connection.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/johnnapier/Turing/mod3/projects/viewing_party_lite/app/channels/application_cable/channel.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1645051723
+    "timestamp": 1645494201
   }
 }
